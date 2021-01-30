@@ -1,0 +1,93 @@
+/* Fonts */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
+
+body {
+    background: #E9E9E9 !important;
+    color: #5e5e5e;
+    font: 400 87.5%/1.5em 'Open Sans', sans-serif;
+}
+.wrap {
+    width: 35%;
+    height: 500px;
+    margin: 50px auto 0 auto;
+    background: #fff;
+}
+
+.wrap h1 {
+    text-align: center;
+    font-size: 30px;
+    padding: 25px 0;
+    font-weight: normal;
+}
+
+.wrap form {
+    margin: 0 15%;
+}
+
+.form-item {
+    overflow: hidden;
+}
+
+.form-item input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: solid 2px #e9e9e9;
+    font-size: 15px;
+    padding: 0;
+    outline: none;
+    transition: border-color 0.3s;
+    border-radius: 3px;
+}
+
+.form-item input:focus {
+    border-bottom: 2px solid #c0c0c0;
+}
+
+.form-buton input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 30px;
+    padding: 0;
+    border: none;
+    font-size: 15px;
+    background: #00bfff;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    border-radius: 3px;
+}
+
+.form-buton:hover input{
+    background: #1e90ff;
+}
+
+.form-footer {
+    margin: 20px 15% 0 15%;
+    text-align: center;
+}
+
+.form-footer p a {
+    text-decoration: none;
+    color: #5e5e5e;
+}
+
+.wrap-index {
+    height: 700px;
+}
+
+/* チェック時 */
+.help-block {
+    color: #ff0066;
+}
+
+.err_msg {
+    color: #ff0066;
+}
+
+form .has-error input {
+    background: #FFABCE;
+
+}
+
